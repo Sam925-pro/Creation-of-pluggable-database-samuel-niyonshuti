@@ -3,8 +3,10 @@
 # Student ID: 28329  
 # Instructor: Eric Maniraguha 
 # courses: Database development with PL/SQL  
+
+## TASK1: create new pluggable database ( pdb  ) 
 I used cmd to connect to my Oracle database using SQL*Plus.I logged in to Oracle Database as SYSDBA and created a new pluggable database following the required format.
-![image alt]()        
+![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/Creation%20of%20pldb.png)        
 **fig 1:** creating first pruggable database
 
 

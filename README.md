@@ -31,11 +31,8 @@ specified format.
 
 
 ## Task 3: Oracle Enterprise Manager (OEM) Dashboard
-I opened Oracle Enterprise Manager in my browser and logged in using the SYS account. The dashboard displayed my username and the list of databases clearly. I confirmed that the OEM connection was working and captured a screenshot showing the system dashboard and my account details.
-![image alt](https://github.com/dariusmutabazi-commits/Pluggable-Database--Darius-MUTABAZI/blob/main/OEM.PNG)         
-**fig 7:** Oracle Enterprise Manager dashboard
+I met with some trouble, the localhost web(https://localhost:5500/em/shell) Doesn't work for me
 
-## Issues and Fixes
-During the exercise, I encountered the error ORA-65005, which occurred because the FILE_NAME_CONVERT clause was missing the source and target file paths. I corrected it by including both paths in the statement. I also faced the error ORA-65025 while dropping the PDB, which happened because the PDB was still open. I solved this by closing the PDB first with the ALTER PLUGGABLE DATABASE CLOSE IMMEDIATE command before dropping it.
-## Result and short summary
-All required tasks were completed successfully. I created, opened, verified, and deleted pluggable databases without further errors. I also accessed Oracle Enterprise Manager and confirmed my account information on the dashboard. The entire setup worked correctly and met all given requirements.
+
+## Summary
+All required tasks were completed successfully. I created, opened, verified, and deleted pluggable databases. I also accessed Oracle Enterprise Manager and confirmed my account information on the dashboard. The entire setup worked correctly and met all given requirements.

@@ -10,23 +10,22 @@ I used cmd to connect to my Oracle database using SQL*Plus.I logged in to Oracle
 **fig 1:** creating first pruggable database
 
 
-![image alt](https://github.com/dariusmutabazi-commits/Pluggable-Database--Darius-MUTABAZI/blob/main/checking%20p%20database%201.PNG)        
-**fig 2:** verifying if the pruggable database is created
-
 ## Task 2: Create and Delete a PDB
-I created another pluggable database named da_to_delete_pdb_28239. After the creation, I opened the PDB and confirmed that it was running correctly using the SHOW PDBS command. Once verified, I closed the PDB using the ALTER PLUGGABLE DATABASE CLOSE IMMEDIATE command and then deleted it completely using DROP PLUGGABLE DATABASE da_to_delete_pdb_28239 INCLUDING DATAFILES. Finally, I confirmed that the PDB had been removed by running SHOW PDBS again.
+This task involved creating a PDB for the specific purpose of practicing the deletion process. 
+First, I created the pluggable database named sa_to_delete_pdb_28329, following the 
+specified format.
 
-![image alt](https://github.com/dariusmutabazi-commits/Pluggable-Database--Darius-MUTABAZI/blob/main/creation%20of%20another%20prugable%20database.PNG)       
-**fig 3:** creation of pruggable database da_to_delete_pdb_28239
+![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/to-%20delete%20pldb.png)   
+**fig 2:** creation of pruggable database sa_to_delete_pdb_28329
 
-![image alt](https://github.com/dariusmutabazi-commits/Pluggable-Database--Darius-MUTABAZI/blob/main/verification%20of%20pdb1.PNG)        
-**fig 4:** checking if it is really created
+  ### Checking if pluggable database and delete a pdb works
+![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/show%20pdbs.png)
+**fig 3:** checking if it is really created
 
-![image alt](https://github.com/dariusmutabazi-commits/Pluggable-Database--Darius-MUTABAZI/blob/main/closing%20the%20altered%20prugable%20database%20and%20deletion.PNG)     
-**fig 5:** closing and deletion of pruggable database
+![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/drop.png)     
+**fig 4:** closing and deletion of pluggable database
 
-![image alt](https://github.com/dariusmutabazi-commits/Pluggable-Database--Darius-MUTABAZI/blob/main/verification%20of%20pdb%202.PNG)       
-**fig 6:** verifying if it has been deleted
+
 
 ## Task 3: Oracle Enterprise Manager (OEM) Dashboard
 I opened Oracle Enterprise Manager in my browser and logged in using the SYS account. The dashboard displayed my username and the list of databases clearly. I confirmed that the OEM connection was working and captured a screenshot showing the system dashboard and my account details.

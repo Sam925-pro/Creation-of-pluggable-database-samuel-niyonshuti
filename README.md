@@ -18,12 +18,15 @@ specified format.
 ![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/to-%20delete%20pldb.png)   
 **fig 2:** creation of pruggable database sa_to_delete_pdb_28329
 
+
   ### Checking if pluggable database and delete a pdb works
 ![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/show%20pdbs.png)
 **fig 3:** checking if it is really created
 
+
+  ### Deletion of pluggable database and it's verification
 ![image alt](https://github.com/Sam925-pro/Creation-of-pluggable-database-samuel-niyonshuti/blob/main/drop.png)     
-**fig 4:** closing and deletion of pluggable database
+**fig 4:** deletion of pluggable database
 
 
 
